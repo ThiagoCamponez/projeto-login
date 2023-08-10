@@ -19,6 +19,10 @@ body, html {
         width: 100vw;
 }
 
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
 main {
         position:relative;
         height: 100vh;
