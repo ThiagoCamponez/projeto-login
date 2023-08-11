@@ -72,6 +72,8 @@ form > div.campo {
         height: 40px;
         margin: 5px 0px;
         text-align: center;
+        background-color: #5f2c82;
+        border-radius: 8px;
 }
 
 div.campo > label {
@@ -79,12 +81,20 @@ div.campo > label {
 }
 
 div.campo > input {
-        padding: 4px;
-        margin-left: 5px;
+        background-color: white;
+        font-size: 0.65em;
+        width: calc(100% - 45px);
+        transform: translateY(-12px);
+        height: 100%;
+        border-radius: 10px;
+        padding: 5px;
 }
 
 div.campo > i {
-        color: #2d6462;
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 4px;
 }
 
 form > input[type=submit] {
