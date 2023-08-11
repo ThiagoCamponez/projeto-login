@@ -19,9 +19,9 @@ body, html {
         width: 100vw;
 }
 
-    body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
+body {
+background-image: linear-gradient(to top, #49a09d, #5f2c82);
+}
 
 main {
         position:relative;
@@ -35,7 +35,7 @@ section#login {
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: white;
-        width: 250px;
+        width: 251px;
         height: 500px;
         border-radius: 20px;
         overflow: hidden;
@@ -46,7 +46,7 @@ section#login {
 
 section#login > div#imagem {
         display: block;
-        background: #5f2c82 url(../imagens/metal.jpg);
+        background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
         background-size: cover;
         background-position: left bottom;
         height: 200px;
@@ -65,3 +65,65 @@ div#formulario > h1 {
 div#formulario > p {
         font-size: 0.8em;
 }
+
+form > div.campo {
+        display: block;
+        width: 100%;
+        height: 40px;
+        margin: 5px 0px;
+        text-align: center;
+}
+
+div.campo > label {
+        display: none;
+}
+
+div.campo > input {
+        padding: 4px;
+        margin-left: 5px;
+}
+
+div.campo > i {
+        color: #2d6462;
+}
+
+form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+        background-color: #2d6462;
+}
+
+form > a.botao {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        border: 1px solid #2d6462;
+        height: 40px;
+        border-radius: 5px;
+        color: #2d6462;
+        padding-top: 5px;
+        margin-top: 7px;
+}
+
+form > a.botao:hover {
+        background-color: #6cd3cf;
+        color: white;
+        text-shadow: 1px 1px 1px #2d6462;
+}
+
+form > a.botao > i {
+        font-size: 0.8em;
+}
+
